@@ -23,6 +23,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-    name     = "rg-staticsite-lb-aluno02"
+    name     = "rg-staticsite-lb-elvis"
     location = "brazilsouth"
 }
