@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-staticsite-lb-tf-aluno02"
-    storage_account_name = "staticsitelbtfaluno02"
+    resource_group_name  = "rg-staticsite-lb-tf-elvis"
+    storage_account_name = "staticsitelbtfelvis"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
